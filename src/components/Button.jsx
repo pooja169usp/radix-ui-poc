@@ -3,7 +3,6 @@ import {
     gray,
     blue
   } from '@radix-ui/colors';
-  import '../index.scss';
 
 export const Button = styled('button', {
     all: 'unset',
@@ -16,7 +15,7 @@ export const Button = styled('button', {
     lineHeight: 1,
     fontWeight: 500,
     height: 35,
-  
+    transition: 'all 150ms ease-out',
     variants: {
         size: {
             small: {

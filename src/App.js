@@ -35,7 +35,10 @@ const darkTheme = createTheme({
 function App() {
   return (
       <div className="App">
-        <header className="App-header" style={{fontSize: "0.5rem"}}>
+        <div>
+          <h3> Radix UI POC</h3>
+        </div>
+        <div className="App-header" style={{fontSize: "0.5rem"}}>
           <p>Fill button</p>
           <Button size="small">Hello there</Button>
           <p>Ghost button</p>
@@ -44,7 +47,7 @@ function App() {
           <Button size="small" outline="true">Hello there</Button>
           <p>Link button</p>
           <Button size="small" link="true">Hello there</Button>
-        </header>
+        </div>
       </div>
   );
 }
